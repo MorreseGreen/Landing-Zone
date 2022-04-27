@@ -26,6 +26,9 @@ jobs:
       
       - name: Init project
         run: terraform init
+      
+      - name: Run TF plan
+        run: terraform plan
 
       # - name: Terraform Init
       #     env:
